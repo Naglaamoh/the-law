@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Law</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Law Cafe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-success ms-2" type="button" class="btn btn-primary"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+
+                    <!-- Button trigger modal -->
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <form action="">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Login Form</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label for="email" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="email"
+                                            placeholder="name@example.com">
+                                        <label for="password" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="password"
+                                            placeholder="********">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </form>
+        </div>
+        </div>
+    </nav>
+    <!-- ************************************************************8 -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="height: 90vh;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100">
+                <img src="../The Law/images/law2.jpg" class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5> For Legal Advice</h5>
+                    <button class="btn btn-primary">Book Appointment</button>
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <img src="../The Law/images/law1.jpg" class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Experiences</h5>
+                    <button class="btn btn-primary">Book Appointment</button>
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <img src="../The Law/images/law3.jpg" class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Immediate Consultations</h5>
+                    <button class="btn btn-primary">Book Appointment</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- ******************************** -->
+    <div class="content">
+        <h2 class="head">Welcome To Our Office</h2>
+        <p class="content2">We will be your guide in all legal consultations</p>
+    </div>
+    <!-- ***********************8 -->
+
+    <div class="container">
+
+        <div class="choose1">
+            <h6 class="why1">Why Choose Us </h6>
+            <p class="why">We aim to provide our clients with premium quality services and innovative legal services and
+                solutions in a wide range of areas such as individuals, companies and registrations. We have extensive
+                experience and a proven track record in the areas of mergers and acquisitions, corporate law, business
+                law, corporate specialization and intellectual property.</p>
+        </div>
+    </div>
+
+    <!-- ********************************************* -->
+
+
+    <div class="container">
+
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        Family Judges
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <strong>We have a specialized team for all matters related to the property
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        Criminals
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <strong>We have a specialized team for criminal cases
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        Civil Judges
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <strong>We have a specialized team for all matters related to the property
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- **************************************************************8 -->
+    <div class="container-fluid">
+
+        <div class="card text-center">
+            <div class="card-header">
+                Search For Law
+            </div>
+            <div class="card-body">
+                <form class="d-flex">
+
+
+                    <input class="form-control me-2" type="search" placeholder="" aria-label="Search"
+                        style="width: 300px; margin-left: 590px;">
+
+
+                </form>
+                <a href="#" class="btn btn-secondary" style="margin-top: 20px;">Search</a>
+            </div>
+            <!-- <div class="card-footer text-muted">
+    
+        </div> -->
+        </div>
+
+    </div>
+    <div class="container-fluid">
+
+        <div class="card text-center">
+            <div class="card-header">
+                Search for Lawyer
+            </div>
+            <div class="card-body">
+                <form class="d-flex">
+
+
+                    <input class="form-control me-2" type="search" placeholder="" aria-label="Search"
+                        style="width: 300px; margin-left: 590px;">
+
+
+                </form>
+                <a href="#" class="btn btn-secondary" style="margin-top: 20px;">Search</a>
+            </div>
+            <!-- <div class="card-footer text-muted">
+          2 days ago
+        </div> -->
+        </div>
+
+    </div>
+
+    <!-- **********************************************8 -->
+
+    <div class="container-fluid">
+        
+        <div class="parent6">
+            <div class="shfaf">
+                <div class="icon1"><i class="fa-solid fa-people-group il"></i>
+                    <p class="icon"> 40 Excellent Lawers</p>
+                </div>
+                <div class="icon2"> <i class="fa-solid fa-users il"></i>
+                    <p class="icon">1500 Customers</p>
+                </div>
+                <div class="icon3"> <i class="fa-solid fa-building il"></i>
+                    <p class="icon">20 Branches</p>
+                </div>
+                <div class="icon4"><i class="fa-solid fa-file-signature il"></i>
+                    <p class="icon">2000 Cases</p>
+                </div>
+            </div>
+    
+    
+    
+        </div>
+
+    </div>
+
+    <!-- ******************************************** -->
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="../The Law/images/photo1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lawyer1</h5>
+                  <p class="card-text">Family Lawyer <br>
+                More than ten years of experience
+                </p>
+                  <a href="#" class="btn btn-secondary"style="margin-left: 55px;">Send Message</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="../The Law/images/photo3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lawyer2</h5>
+                  <p class="card-text"> Civil Lawyer <br> More than ten years of experience</p>
+                  <a href="#" class="btn btn-secondary"style="margin-left: 55px;">Send Message</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="../The Law/images/photo5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lawyer3</h5>
+                  <p class="card-text"> Personal status Lawyer <br> More than ten years of experience</p>
+                  <a href="#" class="btn btn-secondary" style="margin-left: 55px;">Send Message</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="../The Law/images/photo2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lawyer4</h5>
+                  <p class="card-text"> Administrative cases Lawyer <br> More than ten years of experience</p>
+                  <a href="#" class="btn btn-secondary"style="margin-left: 55px;">Send Message</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="../The Law/images/photo4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lawyer5</h5>
+                  <p class="card-text"> Commercial Lawyer <br> More than ten years of experience</p>
+                  <a href="#" class="btn btn-secondary"style="margin-left: 55px;">Send Message</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="../The Law/images/photo6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lawyer6</h5>
+                  <p class="card-text">Criminal Lawyer <br> More than ten years of experience</p>
+                  <a href="#" class="btn btn-secondary" style="margin-left: 55px;">Send Message</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- ********************************************* -->
+      <div class="container-fluid">
+   
+    </div> 
+    <div class="parent7">
+        <div class="shfaf2">
+            <div class="circlephoto1"></div>
+            <p class="discription1">More Than Forty Lawers</p>
+            <div class="circlephoto2"></div>
+            <p class="discription2"> More Than 2000 Cases</p>
+        </div>
+    </div>
+</div>
+    <!-- **************************************************** -->
+
+    <div class="container text-center " style="margin-top: 30px;">
+
+        <h5 class="join">Join Us</h5>
+        <div class="row row-cols-4">
+          <div class="col"><div class="card" style="width: 18rem;">
+            <div class="card-body">
+               <a href="#"> <i class="fab fa-facebook-f ii"></i></a>
+                <h5 class="card2-title">Go To Link</h5>
+            </div>
+          </div></div>
+          <div class="col"><div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <a href="#">  <i class="fa-brands fa-x-twitter ii"></i></a>
+                <h5 class="card2-title">Go To Link</h5>
+            </div>
+          </div></div>
+          <div class="col"><div class="card" style="width: 18rem;">
+            <div class="card-body">
+               <a href="#"> <i class="fab fa-instagram ii"></i></a>
+                <h5 class="card2-title">Go To Link</h5> 
+            </div>
+          </div></div>
+          <div class="col"><div class="card" style="width: 18rem;">
+            <div class="card-body">
+               <a href="#"><i class="fab fa-linkedin-in ii"></i></a>
+                <h5 class="card2-title">Go To Link</h5></div>
+              
+
+            </div>
+          </div></div>
+        </div>
+      </div>
+      <!-- ********************************************** -->
+
+      <footer class="footer" style="margin-top: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Our Office</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+
+      <!-- ************************************************** -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
